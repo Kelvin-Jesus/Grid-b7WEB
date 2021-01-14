@@ -1,0 +1,14 @@
+.container {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr) auto;
+    grid-template-rows: 100px calc(2rem * 2);
+    gap: 10px 10px;
+}
+
+.container div.item {
+    background-color:#00f;
+    border-radius: 10px;
+    padding:10px;
+    color:white;
+    font-size:24px;
+}
