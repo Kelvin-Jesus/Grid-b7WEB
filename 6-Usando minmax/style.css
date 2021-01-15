@@ -1,0 +1,20 @@
+.container {
+    display:grid;
+    grid-template-columns: repeat(3, minmax(10vw, 20vw));
+    grid-auto-rows: minmax(50px, auto);
+    justify-content:center;
+    gap: 10px 10px;
+    max-width:80vw;
+    margin:0 auto;
+
+}
+
+/* .item-5{grid-auto-rows:minmax(50px, 200px)} */
+
+.container div.item {
+    background-color:#00f;
+    border-radius: 10px;
+    padding:10px;
+    color:white;
+    font-size:24px;
+}

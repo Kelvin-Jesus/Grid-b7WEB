@@ -1,0 +1,17 @@
+.container {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 20vw);
+    justify-content:center;
+    gap: 10px 10px;
+    max-width:80vw;
+    margin:0 auto;
+
+}
+
+.container div.item {
+    background-color:#00f;
+    border-radius: 10px;
+    padding:10px;
+    color:white;
+    font-size:24px;
+}
